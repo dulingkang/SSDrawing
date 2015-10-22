@@ -192,6 +192,16 @@
 		3A4677421BD8C47700F096E2 /* WDTransformOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46768C1BD8C47700F096E2 /* WDTransformOverlay.m */; settings = {ASSET_TAGS = (); }; };
 		3A4677431BD8C47700F096E2 /* WDUnlockSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A46768E1BD8C47700F096E2 /* WDUnlockSlider.m */; settings = {ASSET_TAGS = (); }; };
 		3A4677441BD8C47700F096E2 /* WDUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4676901BD8C47700F096E2 /* WDUnlockView.m */; settings = {ASSET_TAGS = (); }; };
+		3A4677461BD8C66200F096E2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677451BD8C66200F096E2 /* libz.tbd */; };
+		3A4677481BD8C66F00F096E2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677471BD8C66F00F096E2 /* AudioToolbox.framework */; };
+		3A46774B1BD8C6B100F096E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46774A1BD8C6B100F096E2 /* CoreGraphics.framework */; };
+		3A46774D1BD8C6BC00F096E2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46774C1BD8C6BC00F096E2 /* CoreText.framework */; };
+		3A46774F1BD8C6CA00F096E2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46774E1BD8C6CA00F096E2 /* MessageUI.framework */; };
+		3A4677511BD8C6D400F096E2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677501BD8C6D400F096E2 /* OpenGLES.framework */; };
+		3A4677531BD8C6DB00F096E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677521BD8C6DB00F096E2 /* QuartzCore.framework */; };
+		3A4677551BD8C6EA00F096E2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677541BD8C6EA00F096E2 /* Accelerate.framework */; };
+		3A4677571BD8C6F300F096E2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677561BD8C6F300F096E2 /* CoreVideo.framework */; };
+		3A4677591BD8C70300F096E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4677581BD8C70300F096E2 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -534,6 +544,16 @@
 		3A46768E1BD8C47700F096E2 /* WDUnlockSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDUnlockSlider.m; sourceTree = "<group>"; };
 		3A46768F1BD8C47700F096E2 /* WDUnlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDUnlockView.h; sourceTree = "<group>"; };
 		3A4676901BD8C47700F096E2 /* WDUnlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDUnlockView.m; sourceTree = "<group>"; };
+		3A4677451BD8C66200F096E2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		3A4677471BD8C66F00F096E2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3A46774A1BD8C6B100F096E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A46774C1BD8C6BC00F096E2 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3A46774E1BD8C6CA00F096E2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3A4677501BD8C6D400F096E2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3A4677521BD8C6DB00F096E2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3A4677541BD8C6EA00F096E2 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		3A4677561BD8C6F300F096E2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		3A4677581BD8C70300F096E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -541,6 +561,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A4677591BD8C70300F096E2 /* AVFoundation.framework in Frameworks */,
+				3A4677571BD8C6F300F096E2 /* CoreVideo.framework in Frameworks */,
+				3A4677551BD8C6EA00F096E2 /* Accelerate.framework in Frameworks */,
+				3A4677531BD8C6DB00F096E2 /* QuartzCore.framework in Frameworks */,
+				3A4677511BD8C6D400F096E2 /* OpenGLES.framework in Frameworks */,
+				3A46774F1BD8C6CA00F096E2 /* MessageUI.framework in Frameworks */,
+				3A46774D1BD8C6BC00F096E2 /* CoreText.framework in Frameworks */,
+				3A46774B1BD8C6B100F096E2 /* CoreGraphics.framework in Frameworks */,
+				3A4677481BD8C66F00F096E2 /* AudioToolbox.framework in Frameworks */,
+				3A4677461BD8C66200F096E2 /* libz.tbd in Frameworks */,
 				3A4676AE1BD8C47700F096E2 /* libT1PogoManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -548,6 +578,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A39C3061BD8C88F00DC0598 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				3A4677581BD8C70300F096E2 /* AVFoundation.framework */,
+				3A4677561BD8C6F300F096E2 /* CoreVideo.framework */,
+				3A4677541BD8C6EA00F096E2 /* Accelerate.framework */,
+				3A4677521BD8C6DB00F096E2 /* QuartzCore.framework */,
+				3A4677501BD8C6D400F096E2 /* OpenGLES.framework */,
+				3A46774E1BD8C6CA00F096E2 /* MessageUI.framework */,
+				3A46774C1BD8C6BC00F096E2 /* CoreText.framework */,
+				3A46774A1BD8C6B100F096E2 /* CoreGraphics.framework */,
+				3A4677471BD8C66F00F096E2 /* AudioToolbox.framework */,
+				3A4677451BD8C66200F096E2 /* libz.tbd */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		3A4675111BD8C3CF00F096E2 = {
 			isa = PBXGroup;
 			children = (
@@ -567,17 +614,15 @@
 		3A46751C1BD8C3D000F096E2 /* SSDrawing */ = {
 			isa = PBXGroup;
 			children = (
-				3A4675341BD8C47600F096E2 /* SSDrawingPrefix.pch */,
-				3A4675351BD8C47600F096E2 /* SSDrawingGlobal.h */,
 				3A4675361BD8C47600F096E2 /* SSMainViewController.h */,
 				3A4675371BD8C47600F096E2 /* SSMainViewController.m */,
-				3A4675381BD8C47600F096E2 /* ThirdParty */,
 				3A4675201BD8C3D000F096E2 /* AppDelegate.h */,
 				3A4675211BD8C3D000F096E2 /* AppDelegate.m */,
+				3A39C3061BD8C88F00DC0598 /* Framework */,
+				3A4675381BD8C47600F096E2 /* ThirdParty */,
 				3A4675261BD8C3D000F096E2 /* Main.storyboard */,
 				3A4675291BD8C3D000F096E2 /* Assets.xcassets */,
 				3A46752B1BD8C3D000F096E2 /* LaunchScreen.storyboard */,
-				3A46752E1BD8C3D000F096E2 /* Info.plist */,
 				3A46751D1BD8C3D000F096E2 /* Supporting Files */,
 			);
 			path = SSDrawing;
@@ -586,6 +631,9 @@
 		3A46751D1BD8C3D000F096E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A4675341BD8C47600F096E2 /* SSDrawingPrefix.pch */,
+				3A4675351BD8C47600F096E2 /* SSDrawingGlobal.h */,
+				3A46752E1BD8C3D000F096E2 /* Info.plist */,
 				3A46751E1BD8C3D000F096E2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -1424,6 +1472,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SSDrawing/SSDrawingPrefix.pch";
 				INFOPLIST_FILE = SSDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1441,6 +1490,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SSDrawing/SSDrawingPrefix.pch";
 				INFOPLIST_FILE = SSDrawing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
