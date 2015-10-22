@@ -1,0 +1,16 @@
+//
+//  SSDrawingPrefix.pch
+//  SSDrawing
+//
+//  Created by ShawnDu on 15/10/22.
+//  Copyright © 2015年 ShawnDu. All rights reserved.
+//
+
+#ifndef SSDrawingPrefix_pch
+#define SSDrawingPrefix_pch
+
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
+#import "SSDrawingGlobal.h"
+#endif /* SSDrawingPrefix_pch */
