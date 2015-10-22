@@ -20,7 +20,7 @@
     [super viewDidLoad];
     _canvas = [[WDCanvas alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:_canvas];
-    // Do any additional setup after loading the view.
+
 }
 
 @end

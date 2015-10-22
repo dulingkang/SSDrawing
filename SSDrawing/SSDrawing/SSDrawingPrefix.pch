@@ -9,8 +9,11 @@
 #ifndef SSDrawingPrefix_pch
 #define SSDrawingPrefix_pch
 
+#ifdef __OBJC__
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIKit.h>
 #import "SSDrawingGlobal.h"
+#endif
+
 #endif /* SSDrawingPrefix_pch */
